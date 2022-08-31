@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+img {
+    /* dispaly:block 한줄에 하나의 요소만, 그래서 아래로 정렬됨  */
+    /* 마진:오토 오른쪽으로 찬 마진을 줄여주고, 중앙정렬이 되게 함 */
+    display: block;
+    margin: auto;
+}
+button {
+    outline: none;
+    background-color: pink;
+    color: white;
+    font-size: 32px;
+    margin: 16px 0;
+    cursor: pointer;
+}
